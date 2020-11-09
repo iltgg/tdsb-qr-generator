@@ -1,6 +1,7 @@
 # tdsb-qr-generator
-This is intended for entertainment purposes only
-No information is sent
+This is intended for entertainment purposes only,
+No information is sent,
+Mobile only
 
 _____________________________________________________
 
