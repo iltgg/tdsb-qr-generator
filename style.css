@@ -3,6 +3,10 @@ html, body {
     margin: 0;
 }
 
+html{
+    max-width: 800px;
+}
+
 div.start{
     font-family: 'Open Sans', sans-serif;
     color: #000000;
@@ -38,6 +42,7 @@ div.header {
     position: fixed;
     top: 0;
     background-color: white;
+    max-width: 800px;
 }
 
 div.top {
