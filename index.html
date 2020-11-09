@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Employee Health Verification Confirmation (1) - Safe Return to School and Work</title>
+    <script src="qrcodegenmin.js" defer></script>
+    <script src="scripts.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+</head>
+
+<body>
+    <div class="start" id="start">
+        <div class="title">TDSB QR CODE GENERATOR</div>
+        <input type="text" placeholder="input student number" id="number-input">
+        <input type="button" value="Generate" id="submit">
+        <p class="legal">*This is intended for entertainment purposes only<br><br>No information is sent</p>
+    </div>
+    <div class="generated" id="generated">
+        <div class="header">
+            <img src="tdsblogo.png" width="37%" class="logo">
+        </div>
+        <div class="top">
+            <img src="check2.png" width="25%" class="check">
+            <span class="thanks-text">Thank you!</span>
+        </div>
+        <div class="qr-container">
+            <div id="qrcode"></div>
+        </div>
+        <div class="info">
+            <p>Based on the information you have provided, you are cleared to enter TDSB schools/Sites today.</p>
+    
+            <p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This screening/clearance is valid for the day.</p>
+    
+            <p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If you are visiting various schools/sites, you must present this QR Code at each building.</p>
+    
+            <p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If you begin to exhibit any signs or symptoms of COVID-19 during the day, you must alert your Principal or direct Supervisor for immediate action.</p>
+        </div>
+    </div>
+</body>
+
+</html>
